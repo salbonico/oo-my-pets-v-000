@@ -72,6 +72,7 @@ def sell_pets
      animal.each do |array|
       array.each do |pet|
          pet.mood = "nervous"
+       end
     end
     array.clear
   end
