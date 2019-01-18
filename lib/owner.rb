@@ -15,7 +15,7 @@ def self.reset_all
   self.all.clear
 end
 attr_accessor :name
-attr_reader :species,
+attr_reader :species
 
 
 def initialize(species)
