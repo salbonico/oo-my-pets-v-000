@@ -49,5 +49,8 @@ def buy_dog(name)
   self.pets[:dogs].push(new_dog)
 end
 
-
+def walk_dogs
+  self.pets[:dogs].each do |dog|
+    dog.mood = "happy"
+  end
 end
