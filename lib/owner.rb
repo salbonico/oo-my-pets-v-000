@@ -76,7 +76,10 @@ def sell_pets
   end
 end
 
+def list_pets
 
+return "I have #{self.pets[fishes].count} fish, "
+end
 
 
 end
