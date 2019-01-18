@@ -24,7 +24,7 @@ def initialize(species)
 end
 
 def species
- new_owner = Owner.new("human")
+ Owner.new("human")
 
 end
 
