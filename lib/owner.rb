@@ -35,7 +35,7 @@ end
 
 def buy_fish(name)
   new_fish = Fish.new(name)
-  @pets["fishes"].push(new_fish)
+  self.pets["fishes"].push(new_fish)
 end
 
 end
