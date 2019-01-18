@@ -35,7 +35,7 @@ end
 
 def buy_fish(name)
   new_fish = Fish.new(name)
-
+  binding.pry 
 end
 
 end
