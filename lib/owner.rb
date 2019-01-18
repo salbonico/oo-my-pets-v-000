@@ -69,8 +69,9 @@ end
 
 def sell_pets
   self.pets.each do |animal|
-    animal.each do |object|
-      animal.mood = "nervous"
+     animal.each do |array|
+      array.each do |pet|
+         pet.mood = "nervous"
     end
     array.clear
   end
