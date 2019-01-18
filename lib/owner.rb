@@ -71,9 +71,8 @@ def sell_pets
   self.pets.each do |animaltype, pet_list|
      pet_list.each do |pet|
        pet.mood = "nervous"
-
-
-    array.clear
+     end
+    pet_list.clear
   end
 end
 
