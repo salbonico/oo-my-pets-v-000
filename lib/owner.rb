@@ -25,7 +25,7 @@ end
 
 def species
  new_owner = Owner.new("human")
- return new_owner.species
+ 
 end
 
 
