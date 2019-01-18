@@ -24,8 +24,7 @@ def initialize(species)
 end
 
 def species
- self.species
-
+ @species
 end
 
 
