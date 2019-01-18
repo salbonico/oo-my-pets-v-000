@@ -25,12 +25,12 @@ end
 
 def species
  new_owner = Owner.new("human")
- 
+
 end
 
 
 def say_species
-  puts self.species
+  return "I am a human"
 end
 
 end
