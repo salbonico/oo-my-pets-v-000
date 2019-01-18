@@ -24,7 +24,7 @@ def initialize(species)
 end
 
 def species
- Owner.new("human")
+ self.species
 
 end
 
