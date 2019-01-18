@@ -67,6 +67,13 @@ def feed_fish
   end
 end
 
-
+def sell_pets
+  self.pets.each do |array|
+    array.each do |object|
+      object.mood = "nervous"
+    end
+    array.clear
+  end
+end
 
 end
