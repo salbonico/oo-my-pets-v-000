@@ -78,7 +78,7 @@ end
 
 def list_pets
 
-return "I have #{self.pets[fishes].count} fish, "
+return "I have #{self.pets[:fishes].count} fish, "
 end
 
 
