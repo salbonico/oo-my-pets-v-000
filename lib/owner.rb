@@ -14,7 +14,7 @@ end
 def self.reset_all
   self.all.clear
 end
-attr_accessor :name :pets
+attr_accessor :name, :pets
 attr_reader :species
 
 
