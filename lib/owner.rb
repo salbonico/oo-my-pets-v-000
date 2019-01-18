@@ -38,4 +38,10 @@ def buy_fish(name)
   self.pets[:fishes].push(new_fish)
 end
 
+ef buy_cat(name)
+  new_cat = Cat.new(name)
+  self.pets[:cats].push(new_cat)
+end
+
+
 end
